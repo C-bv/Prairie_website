@@ -399,7 +399,11 @@ input, textarea{
   border-radius: 2px;
   backdrop-filter: blur(10px);
   margin: 5px;
-  height: 50%;
+  height: 475px;
+}
+
+.livre_or_container_0{
+  overflow-y: scroll;
 }
 
 .mini_livre_or_container_0, .mini_livre_or_container_1, .mini_livre_or_container_2{
