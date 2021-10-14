@@ -21,7 +21,7 @@ if($rs)
 	echo "Comment Records Inserted";
 }
 
-header('location: livre_or.html');
+header('location: livre_or.php');
 
 
 ?>

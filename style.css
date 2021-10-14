@@ -397,17 +397,14 @@ input, textarea{
   padding: 15px;
   border: 1px solid #FFF;
   border-radius: 2px;
-  margin: 0px 5px 0px 0px;
   backdrop-filter: blur(10px);
   margin: 5px;
-  max-width: 50%;
-  height: fit-content;
+  height: 50%;
 }
 
 .mini_livre_or_container_0, .mini_livre_or_container_1, .mini_livre_or_container_2{
   color: #FFF;
   padding: 15px;
-  margin: 0px 5px 0px 0px;
   margin: 5px;
   text-align: justify;
 }
