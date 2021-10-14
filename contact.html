@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+	<link rel="stylesheet" href="style.css" />
+	<script src="./index.js"></script>
+	<link rel="icon" href="img/logo.ico" />
+	<title>Flo's Cafe</title>
+</head>
+<div id="screen">
+
+	<body>
+		<div class="header">
+			<div class="navigation-bar">
+				<a href="index.html"><img src="img/logo.png" alt="Home" /></a>
+				<ul>
+					<li><a class="normal" href="carte.html">Carte</a></li>
+					<li><a class="normal" href="about.html">A propos</a></li>
+					<li><a class="reservation" href="reservation.html">Réservation</a></li>
+					<li><a class="normal" href="livre_or.html">Livre d'or</a></li>
+					<li><a class="active" href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="main-content">
+			<section class="contact_section" id="contact">
+				<div class=container>
+					<div class="section_name">
+						<h2>Contact</h2>
+					</div>
+					<div class="columns">
+						<div class="contact_container_0">
+							<h3 class="title">Nous trouver</h3>
+							<div class="mini_contact_container_0">
+								<div id="map"></div>
+								<script
+								src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZK32XR4K7wvZFrFt_UeBvDYjT2YCjIfs&callback=initMap&libraries=&v=weekly&channel=2"
+								async>
+								</script>
+								<div class="address">
+									<p>Adresse : Flo's V8 Cafe - Disney California Adventure Park, Rte 66, Anaheim, CA 92802, États-Unis</p>
+								</div>
+							</div>
+						</div>
+						<div class="contact_container_1">
+							<div class="mini_contact_container_1">
+								<h3 class="title">Téléphone</h3>
+								<div class="contact_info_item">
+									<div class="icon"><i class="fas fa-phone-alt"></i></div>
+									<h4>01 23 45 79 89</h4>
+								</div>
+							</div>
+							<div class="mini_contact_container_1">
+								<h3 class="title">Mail</h3>
+								<div class="contact_info_item">
+									<div class="icon"><i class="fas fa-envelope"></i></div>
+									<h4>contact@email.com</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</body>
+</div>
+
+</html>

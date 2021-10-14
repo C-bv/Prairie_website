@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+	<link rel="stylesheet" href="style.css" />
+	<link rel="icon" href="img/logo.ico" />
+	<title>Flo's Cafe</title>
+</head>
+<div id="screen">
+	<body>
+		<div class="header">
+			<div class="navigation-bar">
+				<a href="index.html"><img src="img/logo.png" alt="Home" /></a>
+				<ul>
+					<li><a class="normal" href="carte.html">Carte</a></li>
+					<li><a class="normal" href="about.html">A propos</a></li>
+					<li><a class="reservation active_reservation" href="reservation.html">Réservation</a></li>
+					<li><a class="normal" href="livre_or.html">Livre d'or</a></li>
+					<li><a class="normal" href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="main-content">
+			<section class="reservation_section" id="reservation">
+				<div class=container>
+					<div class="section_name">
+						<h2>Choisissez votre méthode de réservation</h2>
+					</div>
+					<div class="columns">
+                        <div class="reservation_container_0">
+                            <h3 class="title">Réserver directement en ligne</h3>
+							<form name="reservation_form" action="reservation_form.php" method="post" autocomplete="on">
+
+								<!-- NOM -->
+
+								<label for="txtName">Nom :</label><br>
+								<input type="text" id="txtName" name="txtName" placeholder="" minlength="1" required><br><br>
+								
+								<!-- PRENOM -->
+
+								<label for="txtSname">Prénom :</label><br>
+								<input type="text" id="txtSname" name="txtSname" placeholder=" " minlength="1" required><br><br>
+								
+								<!-- PHONE -->
+								
+								<label for="txtPhone">Téléphone :</label><br>
+								<input type="tel" id="txtPhone" name="txtPhone" pattern="[0-9]{2}[0-9]{2}[0-9]{2}[0-9]{2}[0-9]{2}" placeholder=" " maxlength="10"  required><br><br>
+								
+								<!-- NOMBRE -->
+								
+								<label for="txtNumber">Nombre de personnes :</label><br>
+								<input type="number" id ="txtNumber" name="txtNumber" min="1" max="10" required><br>
+								
+								<!-- DATE -->									
+								
+								<label for="txtDate">Date :</label><br>
+								<input type="date" id="txtDate" name="txtDate" required><br><br>
+								
+								<!-- SERVICE -->									
+								
+								<label for="txtService">Service : :</label><br>
+								<input type="radio" name="txtService" value="Midi" required> Midi<br>
+								<input type="radio" name="txtService" value="Soir" required> Soir<br>
+								
+								<!-- COMMENT -->
+
+								<label for="txtMessage">Une demande particulière ? :</label><br>
+								<textarea name="txtMessage" placeholder="Optionnel..." rows="4" cols="30"></textarea><br>
+
+								<!-- SUBMIT -->		
+															
+								<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+								<script src="jquery.js"></script>
+								<input type="submit" id="Submit" value="Réserver">
+							</form>
+                        </div>
+                        <div class="reservation_container_1">
+							<div class="mini_reservation_container_0">
+								<h3 class="title">par téléphone</h3>
+								<div class="contact_info_item">
+									<div class="icon"><i class="fas fa-phone-alt"></i></div>
+									<h4>01 23 45 79 89</h4>
+								</div>
+							</div>
+							<div class="mini_reservation_container_1">
+								<h3 class="title">ou par mail</h3>
+								<div class="contact_info_item">
+									<div class="icon"><i class="fas fa-envelope"></i></div>
+									<h4>contact@email.com</h4>
+								</div>
+							</div>
+						</div>
+                    </div>
+				</div>
+			</section>
+		</div>
+	</body>
+</div>
+
+</html>
