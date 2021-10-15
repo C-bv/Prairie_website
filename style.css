@@ -66,6 +66,26 @@ h4{
   font-weight: 500;
 }
 
+footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  text-transform: uppercase;
+}
+
+footer a{
+  color:#FFF;
+  text-decoration: none;
+  font-size: 1em;
+  margin-right: 5px;
+}
+
+footer a:hover {
+  color:#1ab6d4;
+  transition: all 0.3s ease;
+}
+
 
 /* HEADER */
 
@@ -425,6 +445,12 @@ input, textarea{
   align-items: flex-start;
 }
 
+.given_stars{
+  display: inline;
+  width: 1.4em;
+  color: #FFD700;
+}
+
 /* 5 stars rating input starts */
 .rating {
   width: auto;
@@ -463,6 +489,7 @@ input, textarea{
   left: 0;
   color: #FFD700;
 }
+
 /* 5 stars rating input ends */
 
 textarea {

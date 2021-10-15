@@ -9,7 +9,7 @@
   </head>
   <div id="screen">
   <body>
-  <div class="header">
+    <div class="header">
 			<div class="navigation-bar">
 				<ul>
 					<li><a class="normal" href="admin_consult_reservations.php">Reservations</a></li>

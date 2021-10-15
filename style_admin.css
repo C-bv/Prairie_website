@@ -95,9 +95,22 @@ li a{
     padding: 0px;
 }
 
+/* Login Navbar starts */
 
+.navigation-bar .login_li {
+    display: flex;
+    flex-direction: column;
+}
+  
 
-  /* MAIN CONTENT */
+/* MAIN CONTENT */
+
+.main-content{
+    padding:0 30px;  
+    height:80%;
+    overflow: auto;
+    z-index: 2;
+}
 
 .container {
     display: flex;
@@ -106,6 +119,7 @@ li a{
     width: 100%;
     margin: auto;
     align-items: center;
+    color: #FFF;
 }
 
 .section_name{
@@ -154,4 +168,22 @@ td{
     /* backdrop-filter: brightness(0.5); FULL LAGGY */
     padding: 5px;
     border-radius: 2px;
+}
+
+input, textarea {
+    background-color: transparent;
+    border: 1px solid #FFF;
+    border-radius: 2px;
+    color: #1ab6d4;
+    font-family: Montserrat;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+form{
+    display: flex;
+    font-weight: 600;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }

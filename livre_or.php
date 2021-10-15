@@ -41,7 +41,7 @@
 								<div class="mini_livre_or_container_0">
 									<div class="given_rating">
 										<div class="rating_given_0">
-											<?php echo $data['Rating']; ?>
+											<?php echo $data['Rating']; ?><p class="given_stars"> ☆</p>
 										</div>
 									</div>
 									<p><?php echo $data['Message']; ?></p>
@@ -58,8 +58,8 @@
 
 								<!-- NOM -->
 
-								<label for="txtNamec">Nom :</label><br>
-								<input type="text" id="txtNamec" name="txtNamec" minlength="1" required><br><br>
+								<label for="txtNamec">Nom :</label>
+								<input type="text" id="txtNamec" name="txtNamec" minlength="1" required><br>
 								
 								<!-- EMAIL-->
 

@@ -1,7 +1,7 @@
 <?php
 // database connection code
 
-$con = mysqli_connect('localhost', 'phpmyadmin', 'bouveret','db_reservation');
+$con = mysqli_connect('localhost', 'phpmyadmin', 'bouveret','db_restaurant');
 
 // get the post records
 $txtNamec = $_POST['txtNamec'];

@@ -1,10 +1,6 @@
 <?php
 
-$db = mysqli_connect("localhost","phpmyadmin","bouveret","db_reservation");
+$db = mysqli_connect("localhost","phpmyadmin","bouveret","db_restaurant");
 
-if(!$db)
-{
-    die("Connection failed: " . mysqli_connect_error());
-}
 
 ?>
